@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 .bg1{
     background-image: url(img/bg1.png);
     width: 100vw;
@@ -149,8 +153,10 @@
     color: #DEA63C;
 }   /* 어바웃 */
 .img{
-    padding-left: 53.5px;
-    padding-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }   /* 클래스 사진 */
 .l5{
     display: block;
@@ -188,10 +194,13 @@
     color: #DEA63C;
     padding-bottom: 35px;
 }   /* 캐릭터 */
-.chs1{
-    width: 430px;
+.chs1, .chs2, .chs3, .chs4, .chs5, .chs6, .chs7{
+    width: 100%; 
+    max-width: 430px;
     height: 363.07px;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }   /* 캐릭터 섹션 박스 */
 .chn1{
     width: 92px;
@@ -234,13 +243,6 @@
 }   /* 아스타리온 사진 */
 
 
-.chs2{
-    margin-top: 35px;
-    width: 430px;
-    height: 363.07px;
-    position: relative;
-    /* background-color: red; */
-}   /* 캐릭터 섹션 박스 */
 .chn2{
     width: 92px;
     line-height: 19px;
@@ -282,12 +284,6 @@
 }   /* 게일 사진 */
 
 
-.chs3{
-    margin-top: 35px;
-    width: 430px;
-    height: 363.07px;
-    position: relative;
-}   /* 캐릭터 섹션 박스 */
 .chn3{
     width: 92px;
     line-height: 19px;
@@ -329,12 +325,6 @@
 }   /* 레이젤 사진 */
 
 
-.chs4{
-    margin-top: 35px;
-    width: 430px;
-    height: 363.07px;
-    position: relative;
-}   /* 캐릭터 섹션 박스 */
 .chn4{
     width: 92px;
     line-height: 19px;
@@ -377,12 +367,6 @@
 
 
 
-.chs5{
-    margin-top: 35px;
-    width: 430px;
-    height: 363.07px;
-    position: relative;
-}   /* 캐릭터 섹션 박스 */
 .chn5{
     width: 92px;
     line-height: 19px;
@@ -424,12 +408,6 @@
 }   /* 윌 사진 */
 
 
-.chs6{
-    margin-top: 35px;
-    width: 430px;
-    height: 363.07px;
-    position: relative;
-}   /* 캐릭터 섹션 박스 */
 .chn6{
     width: 92px;
     line-height: 19px;
@@ -471,12 +449,6 @@
 }   /* 카를라크 사진 */
 
 
-.chs7{
-    margin-top: 35px;
-    width: 430px;
-    height: 363.07px;
-    position: relative;
-}   /* 캐릭터 섹션 박스 */
 .chn7{
     width: 92px;
     line-height: 19px;
@@ -635,5 +607,11 @@
     height: 43px;
     gap: 24px;
     padding-top: 35px;
-    padding-left: 90px;
+    margin: 0 auto; 
+    justify-content: center;
 }   /* 하단 버튼 컨트롤 */
+@media (max-width: 768px) {
+    .back {
+        background-attachment: scroll; 
+    }
+}
