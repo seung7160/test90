@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Noto+Sans+KR&display=swap');
+/* index */
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg1{
+    background-image: url(img/bg1.png);
+    width: 100vw;
+    height: 100vh;
+}
+.logo{
+    padding-left: 120px;
+    padding-top: 30px;
+}
+.bt1{
+    width: 190px;
+    height: 143px;
+    background-image: url(img/bt1.png);
+    bottom: 15%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.logo2{
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 8%;
+    left: 52%;
+}   
+.t1{
+    font-family: "Esteban", serif;
+    font-size: 25px;
+    color: #DEA63C;
+    padding-left: 72px;
+    padding-top: 40px;
+}
+.pbt{
+    background-image: url(img/pbt.png);
+    width: 93px;
+    height: 93px;
+    left: 40%;
+    bottom: 50%;
+    position: absolute;
+}
+/* sub */
+
+.vd{
+    width: 370px;
+    height: 320px;
+    margin: 0 auto;
+}
+.vd video{
+    width: 100%;
+    height: 100%;
+}
+.back{
+    width: 100%;
+    height: 5635px;
+    background-image: url(img/bg2.png);
+    background-attachment: fixed;
+}   
+/* 배경화면 */
+
+.t2{
+    font-family: "Esteban", serif;
+    font-size: 30px;
+    color: #EAEAEA;
+    text-align: center;
+    padding-top: 24px;
+}   /* 발더스 게이트 3 */
+.l1{
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    height: 22px;
+    padding-top: 35px;
+    padding-bottom: 7px;
+}   /* 윗 라인 */
+.t3{
+    width: 350px;
+    color: #F3DABD;
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0 auto;
+    font-weight: 400;
+}   /* 본문 텍스트 */
+.l2{
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    height: 22px;
+    padding-top: 7px;
+    padding-bottom: 35px;
+}   /* 아래 라인 */
+.box1{
+    margin: 0 auto;
+    width: 370px;
+    height: 244px;
+    background-image: url(img/mdbox.jpg);
+}   /* 이미지 겉 박스 */
+.ct{
+    padding-left: 30px;
+    padding-top: 35px;
+}   /* 스토리 사진 */
+
+
+/* story */
+
+.t4{
+    font-family: "Esteban", serif;
+    text-align: center;
+    font-size: 30px;
+    color: #DEA63C;
+    padding-top: 35px;
+}   /* 스토리 */
+.l3{
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    height: 22px;
+    padding-top: 35px;
+    padding-bottom: 7px;
+}   /* 윗 라인 */
+.t5{
+    width: 350px;
+    height: 196px;
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0 auto;
+    color: #F3DABD;
+}   /* 스토리 본문 텍스트 */
+.l4{
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    height: 22px;
+    padding-top: 7px;
+    padding-bottom: 35px;
+}   /* 아래 라인 */
+
+
+/* about */
+
+.t6{
+    font-family: "Esteban", serif;
+    text-align: center;
+    font-size: 30px;
+    color: #DEA63C;
+}   /* 어바웃 */
+.img{
+    padding-left: 53.5px;
+    padding-top: 35px;
+}   /* 클래스 사진 */
+.l5{
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    height: 22px;
+    padding-top: 35px;
+    padding-bottom: 7px;
+}   /* 윗 라인 */
+.t7{
+    width: 350px;
+    height: 209px;
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0 auto;
+    color: #F3DABD;
+}   /* 어바웃 본문 텍스트 */
+.l6{
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    height: 22px;
+    padding-top: 7px;
+    padding-bottom: 35px;
+}   /* 아래 라인 */
+
+
+/* Character */
+
+
+.t8{
+    font-family: "Esteban", serif;
+    text-align: center;
+    font-size: 30px;
+    color: #DEA63C;
+    padding-bottom: 35px;
+}   /* 캐릭터 */
+.chs1{
+    width: 430px;
+    height: 363.07px;
+    position: relative;
+}   /* 캐릭터 섹션 박스 */
+.chn1{
+    width: 92px;
+    line-height: 19px;
+    font-size: 19px;
+    color: #DDD6AE;
+    padding-top: 37px;
+    padding-left: 35px;
+}   /* 아스타리온 이름 */
+.cl1{
+    padding-left: 35px;
+    padding-top: 8px;
+    padding-bottom: 31px;
+    width: 112px;
+    font-size: 0px;
+}   /* 짧은 선 */
+.cht1{
+    font-size: 12px;
+    line-height: 19px;
+    color: #F3DABD;
+    width: 170px;
+    height: 208px;
+    padding-left: 35px;
+}   /* 아스타리온 본문 */
+.cl2{
+    padding-left: 35px;
+    padding-top: 45px;
+    font-size: 0px;
+    width: 360px;
+}   /* 긴 선 */
+.ch1{
+    background-image: url(img/ch1.jpg);
+    width: 243px;
+    height: 340px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   /* 아스타리온 사진 */
+
+
+.chs2{
+    margin-top: 35px;
+    width: 430px;
+    height: 363.07px;
+    position: relative;
+    /* background-color: red; */
+}   /* 캐릭터 섹션 박스 */
+.chn2{
+    width: 92px;
+    line-height: 19px;
+    font-size: 19px;
+    color: #DDD6AE;
+    padding-top: 37px;
+    padding-left: 35px;
+}   /* 게일 이름 */
+.cl3{
+    padding-left: 35px;
+    padding-top: 8px;
+    padding-bottom: 31px;
+    width: 112px;
+    font-size: 0px;
+}   /* 짧은 선 */
+.cht2{
+    font-size: 12px;
+    line-height: 19px;
+    color: #F3DABD;
+    width: 170px;
+    height: 208px;
+    padding-left: 35px;
+}   /* 게일 본문 */
+.cl4{
+    padding-left: 35px;
+    padding-top: 45px;
+    font-size: 0px;
+    width: 360px;
+}   /* 긴 선 */
+.ch2{
+    background-image: url(img/ch2.jpg);
+    width: 243px;
+    height: 340px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   /* 게일 사진 */
+
+
+.chs3{
+    margin-top: 35px;
+    width: 430px;
+    height: 363.07px;
+    position: relative;
+}   /* 캐릭터 섹션 박스 */
+.chn3{
+    width: 92px;
+    line-height: 19px;
+    font-size: 19px;
+    color: #DDD6AE;
+    padding-top: 37px;
+    padding-left: 35px;
+}   /* 레이젤 이름 */
+.cl5{
+    padding-left: 35px;
+    padding-top: 8px;
+    padding-bottom: 31px;
+    width: 112px;
+    font-size: 0px;
+}   /* 짧은 선 */
+.cht3{
+    font-size: 12px;
+    line-height: 19px;
+    color: #F3DABD;
+    width: 170px;
+    height: 208px;
+    padding-left: 35px;
+}   /* 레이젤 본문 */
+.cl6{
+    padding-left: 35px;
+    padding-top: 45px;
+    font-size: 0px;
+    width: 360px;
+}   /* 긴 선 */
+.ch3{
+    background-image: url(img/ch3.jpg);
+    width: 243px;
+    height: 340px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   /* 레이젤 사진 */
+
+
+.chs4{
+    margin-top: 35px;
+    width: 430px;
+    height: 363.07px;
+    position: relative;
+}   /* 캐릭터 섹션 박스 */
+.chn4{
+    width: 92px;
+    line-height: 19px;
+    font-size: 19px;
+    color: #DDD6AE;
+    padding-top: 37px;
+    padding-left: 35px;
+}   /* 섀도하트 이름 */
+.cl7{
+    padding-left: 35px;
+    padding-top: 8px;
+    padding-bottom: 58px;
+    width: 112px;
+    font-size: 0px;
+}   /* 짧은 선 */
+.cht4{
+    font-size: 12px;
+    line-height: 19px;
+    color: #F3DABD;
+    width: 180px;
+    height: 171px;
+    padding-left: 35px;
+}   /* 섀도하트 본문 */
+.cl8{
+    padding-left: 35px;
+    padding-top: 58px;
+    font-size: 0px;
+    width: 360px;
+}   /* 긴 선 */
+.ch4{
+    background-image: url(img/ch4.jpg);
+    width: 243px;
+    height: 340px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   /* 섀도하트 사진 */
+
+
+
+.chs5{
+    margin-top: 35px;
+    width: 430px;
+    height: 363.07px;
+    position: relative;
+}   /* 캐릭터 섹션 박스 */
+.chn5{
+    width: 92px;
+    line-height: 19px;
+    font-size: 19px;
+    color: #DDD6AE;
+    padding-top: 37px;
+    padding-left: 35px;
+}   /* 윌 이름 */
+.cl9{
+    padding-left: 35px;
+    padding-top: 8px;
+    padding-bottom: 46px;
+    width: 112px;
+    font-size: 0px;
+}   /* 짧은 선 */
+.cht5{
+    font-size: 12px;
+    line-height: 19px;
+    color: #F3DABD;
+    width: 180px;
+    height: 190px;
+    padding-left: 35px;
+}   /* 윌 본문 */
+.cl10{
+    padding-left: 35px;
+    padding-top: 46px;
+    font-size: 0px;
+    width: 360px;
+}   /* 긴 선 */
+.ch5{
+    background-image: url(img/ch5.jpg);
+    width: 243px;
+    height: 340px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   /* 윌 사진 */
+
+
+.chs6{
+    margin-top: 35px;
+    width: 430px;
+    height: 363.07px;
+    position: relative;
+}   /* 캐릭터 섹션 박스 */
+.chn6{
+    width: 92px;
+    line-height: 19px;
+    font-size: 19px;
+    color: #DDD6AE;
+    padding-top: 37px;
+    padding-left: 35px;
+}   /* 카를라크 이름 */
+.cl11{
+    padding-left: 35px;
+    padding-top: 8px;
+    padding-bottom: 79px;
+    width: 112px;
+    font-size: 0px;
+}   /* 짧은 선 */
+.cht6{
+    font-size: 12px;
+    line-height: 19px;
+    color: #F3DABD;
+    width: 180px;
+    height: 133px;
+    padding-left: 35px;
+}   /* 카를라크 본문 */
+.cl12{
+    padding-left: 35px;
+    padding-top: 79px;
+    font-size: 0px;
+    width: 360px;
+}   /* 긴 선 */
+.ch6{
+    background-image: url(img/ch6.jpg);
+    width: 196px;
+    height: 360px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   /* 카를라크 사진 */
+
+
+.chs7{
+    margin-top: 35px;
+    width: 430px;
+    height: 363.07px;
+    position: relative;
+}   /* 캐릭터 섹션 박스 */
+.chn7{
+    width: 92px;
+    line-height: 19px;
+    font-size: 19px;
+    color: #DDD6AE;
+    padding-top: 37px;
+    padding-left: 35px;
+}   /* 다크어지 이름 */
+.cl13{
+    padding-left: 35px;
+    padding-top: 8px;
+    padding-bottom: 79px;
+    width: 112px;
+    font-size: 0px;
+}   /* 짧은 선 */
+.cht7{
+    font-size: 12px;
+    line-height: 19px;
+    color: #F3DABD;
+    width: 185px;
+    height: 133px;
+    padding-left: 35px;
+}   /* 다크어지 본문 */
+.cl14{
+    padding-left: 35px;
+    padding-top: 79px;
+    font-size: 0px;
+    width: 360px;
+}   /* 긴 선 */
+.ch7{
+    background-image: url(img/ch7.jpg);
+    width: 243px;
+    height: 340px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   /* 다크어지 사진 */
+
+
+/* Buy Now */
+.bs{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 50px;
+}   /* 섹션 전체 컨트롤 */
+.bnbt{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}   /* 우측 버튼 컨트롤 */
+.b1{
+    font-family: "Esteban", serif;
+    text-align: center;
+    font-size: 30px;
+    color: #DEA63C;
+    padding-top: 35px;
+    margin-bottom: 38px;
+}   /* Buy Now */
+.bn2{
+    position: relative;
+    width: 124px;
+    height: 47px;
+}   /* 우측 이미지 상위 */
+.bn2 img:first-child{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}   /* 뒤 박스 */
+.bn2 img:last-child {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: 10; 
+    width: 24px;
+    height: 24px;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}   /* 스팀 로고 */
+.bn3{
+    position: relative;
+    width: 124px;
+    height: 47px;
+}
+.bn3 img:first-child{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}   /* 뒤 박스 */
+.bn3 img:last-child {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: 10; 
+    width: 46px;
+    height: 10px;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}   /* 플스 로고 */
+.bn4{
+    position: relative;
+    width: 124px;
+    height: 47px;
+}
+.bn4 img:first-child{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}   /* 뒤 박스 */
+.bn4 img:last-child {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: 10; 
+    width: 24px;
+    height: 24px;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}   /* 엑박 로고 */
+.l7{
+    padding-left: 35px;
+    padding-top: 35px;
+    font-size: 0px;
+}   /* 아래 라인 */
+.s1{
+    font-family: "Esteban", serif;
+    text-align: center;
+    font-size: 30px;
+    color: #DEA63C;
+    padding-top: 35px;
+    margin-bottom: 35px;
+}   /* 소셜미디어 */
+.sbox1{
+    margin: 0 auto;
+    width: 370px;
+    height: 244px;
+    background-image: url(img/mdbox.jpg);
+   /* 이미지 겉 박스 */
+}
+.sbox2{
+    padding-left: 30px;
+    padding-top: 35px;
+}   /* 소셜 미디어 사진 컨트롤 */
+.s2{
+    display: flex;
+    align-items: center;
+    width: 249px;
+    height: 43px;
+    gap: 24px;
+    padding-top: 35px;
+    padding-left: 90px;
+}   /* 하단 버튼 컨트롤 */
